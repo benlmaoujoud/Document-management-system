@@ -2,24 +2,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Java Program",
-            "request": "launch",
-            "vmArgs": "--module-path /Users/mac/Downloads/javafx-sdk-17.0.2/lib --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "",
-            "console": "internalConsole"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-AirbusManagementSpringApplication<airbus-management-spring>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.airbus.management.AirbusManagementSpringApplication",
-            "projectName": "airbus-management-spring",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
             "name": "Spring Boot-DmsManagementSpringApplication<dms-management-spring>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
