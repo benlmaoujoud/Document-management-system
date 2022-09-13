@@ -3,7 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dms": {
+    "
+    
+    ": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -80,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AirbusInventory:build"
+            "browserTarget": "dms:build"
           }
         },
         "test": {
@@ -104,5 +106,5 @@
       }
     }
   },
-  "defaultProject": "AirbusInventory"
+  "defaultProject": "dms"
 }
