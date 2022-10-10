@@ -1,11 +1,15 @@
-use Product;
+use Doument;
 
-drop table Product;
-create table Product(
-productId varchar(256) Unique not null,
-productName varchar(256),
-productDescription varchar(3500),
-productCategory varchar(256),
+drop table Document;
+create table Document(
+documentId varchar(256) Unique not null,
+| documentName varchar(256),
+pathOfDocument varchar(3500),
+documentDescription varchar(256),
+documentCategory varchar(256),
+dateUpload varchar(256),
+lastModification varchar(256),
+
 units int
 );
 
@@ -16,8 +20,6 @@ password varchar(256)
 );
 
 
-use Product;
-insert into User(username,password) Values("airbus01","$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6");
-insert into User(username,password) Values("airbus02","$2a$10$ZnnAdfh3cc7a/b1aODLeoOjifNPbHL6Vo8kpRJj.muPsVp1697hJO");
+use Documennt;
+insert into User(username,password) Values("ensias","$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6");
 
-insert into Product(productId,productName,productDescription,productCategory,units) Values("1","ahmed","eee","kkk",33);
